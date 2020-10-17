@@ -1,0 +1,209 @@
+#page-login {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%);
+
+    position: relative;
+    display: flex;
+}
+
+#page-login section {
+    width: calc(100vw - 540px);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    line-height: 24px;
+    font-size: 24px;
+}
+
+#page-login strong {
+    margin-top: 100px;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+
+#page-login aside {
+    width: 540px;
+    padding: 80px;
+    
+    background: #FFFFFF;
+    color: #8FA7B3;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    position: relative;
+}
+
+#page-login aside header button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 40px;
+
+    width: 48px;
+    height: 48px;
+
+    border: 0;
+
+    background: #EBF2F5;
+    border-radius: 16px;
+
+    cursor: pointer;
+
+    transition: background-color 0.2s;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#page-login aside header button:hover {
+    background: #CEF6FF;
+}
+
+/* Form Style (Input, label...) */
+form.login-restrict-access legend {
+    color: #5C8599;
+
+    line-height: 34px;
+    font-size: 32px;
+    font-weight: bold;
+
+    margin-bottom: 40px;
+}
+
+form.login-restrict-access .legend-details {
+    color: #5C8599;
+    font-size: 18px;
+    font-weight: 600;
+    line-height:28px;
+    margin-bottom: 40px;
+}
+
+form.login-restrict-access .input-block + .input-block {
+    margin-top: 24px;
+}
+
+form.login-restrict-access .input-block label {
+    margin-bottom: 8px;
+    
+    font-size: 16px;
+    line-height: 22px;
+
+    display: flex;
+}
+
+form.login-restrict-access .input-block input {
+    width: 100%;
+    background: #F5F8FA;
+    color: #5C8599;
+
+    border: 1px solid #D3E2E5;
+    border-radius: 20px;
+    outline: none;
+}
+
+form.login-restrict-access .input-block input {
+    height: 64px;
+    padding: 0 16px;
+}
+
+form.login-restrict-access .input-block input:focus {
+    border: 1px solid #A1E9C5;
+}
+
+/* Form Options (Forgot Password & Remember Me) */
+form.login-restrict-access .input-block.options {
+    font-size: 16px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+form.login-restrict-access .input-block.options .forgotPassword {
+    text-decoration: none;
+    color: #8FA7B3;
+}
+
+/* Checkbox - Custom Style */
+form.login-restrict-access .input-block input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+form.login-restrict-access .input-block .checkmark {
+    width: 24px;
+    height: 24px;
+
+    margin-right: 16px;
+
+    background-color: #F5F8FA;
+    border: 1px solid #D3E2E5;
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    transition: background-color 0.3s;
+}
+
+form.login-restrict-access .input-block .checkmark:hover {
+    background-color: #E6EEF1;
+}
+
+form.login-restrict-access .input-block input[type="checkbox"]:checked ~ .checkmark {
+    background-color: #37C77F;
+    border: 2px solid #37C77F;
+}
+
+form.login-restrict-access .input-block .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+form.login-restrict-access .input-block input[type="checkbox"]:checked ~ .checkmark:after {
+    display: block;
+}
+
+form.login-restrict-access .input-block .checkmark:after {
+    margin-left: 6px;
+    margin-top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+/* Login Button */
+form.login-restrict-access button.login-button {
+    margin-top: 40px;
+
+    width: 100%;
+    height: 64px;
+
+    background: #37C77F;
+    border-radius: 20px;
+    border: 0;
+    outline: none;
+
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+form.login-restrict-access button.login-button:hover {
+    background: #36CF82;
+}
