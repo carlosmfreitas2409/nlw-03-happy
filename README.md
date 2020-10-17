@@ -29,6 +29,10 @@
   </a>
 </p>
 
+<p align="center">
+  <img alt="Happy" src=".github/happy.png" width="100%">
+</p>
+
 ----
 
 ## 💡 Sobre (O Projeto)
@@ -106,10 +110,11 @@ Resource URI          | Método HTTP | Finalidade
 - [x] ~~Contato WhatsApp~~
 - [x] ~~Integração com o SweetAlert2~~
 - [x] ~~Title TAG de acordo com a página atual~~
-- [x] ~~Integração do GEOLocation~~
+- [x] ~~Integração com o Geolocation~~
 - [x] ~~Animações (Framer Motion)~~
 - [x] ~~Counter de Orfanatos no mapa~~
 - [x] ~~Autenticação/Acesso Restrito~~
+- [ ] Melhoria na autenticação
 - [ ] Dark Mode
 - [ ] Opções para Contato (Sem WhatsApp)
 - [ ] Responsividade
@@ -126,5 +131,7 @@ Após o merge da sua pull request for realizado, você pode deletar a sua branch
 ## 📝 Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/carlosmfreitas2409/nlw-03-happy/blob/master/LICENSE).
+
+---
 
 <p>Feito com 💜 por Carlos Eduardo.</p>
