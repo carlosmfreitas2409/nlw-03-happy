@@ -41,7 +41,10 @@ O Happy é uma aplicação que conecta pessoas à casas de acolhimento instituci
 
 Este projeto foi construído durante a terceira edição do evento Next Level Week da [Rocketseat](https://rocketseat.com.br/).
 
----
+<p align="center">
+  <img alt="Happy" src=".github/happy-video.gif" width="100%">
+</p>
+    
 
 ## 🎨 Layout
 
@@ -114,6 +117,7 @@ Resource URI          | Método HTTP | Finalidade
 - [x] ~~Animações (Framer Motion)~~
 - [x] ~~Counter de Orfanatos no mapa~~
 - [x] ~~Autenticação/Acesso Restrito~~
+- [x] ~~Remover orfanato~~
 - [ ] Melhoria na autenticação
 - [ ] Dark Mode
 - [ ] Opções para Contato (Sem WhatsApp)
