@@ -50,7 +50,7 @@ Este projeto foi construído durante a terceira edição do evento Next Level We
 
 Nos links abaixo você encontra o layout do projeto web e também do mobile. Lembrando que você precisa ter uma conta no [Figma](http://figma.com/) para acessá-lo.
 
-- [Layout Web](https://www.figma.com/file/29mYCcFIkqyYFE6eVT7kJ3/Happy-Web-2.0)
+- [Layout Web](https://www.figma.com/file/29mYCcFIkqyYFE6eVT7kJ3/Happy-Web-2.0) 
 - [Layout Mobile](https://www.figma.com/file/Q6uftMn2Z2873lBUhymF95/Happy-Mobile-OmniStack)
 
 ## 🛠️ Tecnologias
